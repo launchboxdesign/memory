@@ -48,9 +48,9 @@ const gridDisplay = document.querySelector('#grid')
 function createBoard() {
     for (let i = 0; i < 10; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', "https://raw.githubusercontent.com/launchboxdesign/memory/main/images/GoT.jpg")
+        card.setAttribute('src', 'https://raw.githubusercontent.com/launchboxdesign/memory/main/images/GoT.jpg')
         card.setAttribute('data-id', i)
-        gridDisplay.appendChild
+        gridDisplay.appendChild(card)
 
     }
 }
